@@ -1,0 +1,224 @@
+
+----------------------------------------------------------------------------------------
+Event No: 4826100
+Centre: London (Int Hse)
+Room: LIH 113
+Course Code: RSLBGQATSQL
+Start Date: 12/06/2024
+No of AfA PC's setup : 16 Delegate's + Instructor
+----------------------------------------------------------------------------------------
+
+
+      ----- For GoToMyPC Support Please See Contact Details at bottom of Page ----- 
+
+               		 ----- ON LAST DAY OF COURSE -----
+       -- PLEASE ALSO ENSURE THAT YOU NOTIFY LOCAL COURSE SUPPORT --
+             -- WHEN YOU HAVE FINISHED WITH THE MACHINES --
+
+
+
+
+
+
+For GoToMyPC support in London (Int Hse) Contact:
+
+Prithiraj Singh Tel: 07710 147 019 / Email: Prithiraj.Singh@qa.com
+Frank Youkhana Tel: 0789 404 8555 / Email: Frank.Youkhana@qa.com
+
+
+
+ or Contact CourseSupport@qa.com
+
+
+
+AFA STUDENT01 -		PC01-RSLBGQATSQL-12062024 - Andrew R
+
+	    Lab URL:	https://www.gotomypc.com/sc/8DB68ECECB1924364F01419002AEEDDD
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.101
+
+
+
+AFA STUDENT02 -		PC02-RSLBGQATSQL-12062024 David M
+
+	    Lab URL:	https://www.gotomypc.com/sc/DF89CAF7F41C53E7498CC19002AF27EC
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.102
+
+
+
+AFA STUDENT03 -		PC03-RSLBGQATSQL-12062024 Lorna GS
+
+	    Lab URL:	https://www.gotomypc.com/sc/60D8A8EBCE7F37B39265119002AF4B5E
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.103
+
+
+
+AFA STUDENT04 -		PC04-RSLBGQATSQL-12062024 Mark W
+
+	    Lab URL:	https://www.gotomypc.com/sc/B2AE575FB86F9BF574AC719002AF7028
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.104
+
+
+
+AFA STUDENT05 -		PC05-RSLBGQATSQL-12062024 - Morley C Paul H
+
+	    Lab URL:	https://www.gotomypc.com/sc/1586E811E7F0473B71EF619002AF97B9
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.105
+
+
+
+AFA STUDENT06 -		PC06-RSLBGQATSQL-12062024 - Praveen A
+
+	    Lab URL:	https://www.gotomypc.com/sc/E68B9FCC1579FE343BFA019002AFC394
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.106
+
+
+
+AFA STUDENT07 -		PC07-RSLBGQATSQL-12062024 - Praveen K
+
+	    Lab URL:	https://www.gotomypc.com/sc/AEC664C0E6879A146369519002B000C0
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.107
+
+
+
+AFA STUDENT08 -		PC08-RSLBGQATSQL-12062024b Praveen VM
+
+	    Lab URL:	https://www.gotomypc.com/sc/1E310992A100F96E9F6B819002B0295D
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.108
+
+
+
+AFA STUDENT09 -		PC09-RSLBGQATSQL-12062024 - Sana A
+
+	    Lab URL:	https://www.gotomypc.com/sc/48DB8905D05E10B8C9FE019002B050A2
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.109
+
+
+
+AFA STUDENT10 -		PC10-RSLBGQATSQL-12062024 - Suzy B 
+
+	    Lab URL:	https://www.gotomypc.com/sc/B2738398EED56D6AA9BA019002B072ED
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.110
+
+
+
+AFA STUDENT11 -		PC11-RSLBGQATSQL-12062024
+
+	    Lab URL:	https://www.gotomypc.com/sc/D129910C629034C380C6019002B0A0E6
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.111
+
+
+
+AFA STUDENT12 -		PC12-RSLBGQATSQL-12062024
+
+	    Lab URL:	https://www.gotomypc.com/sc/F4CFFB13BFCC8AC2C0C8119002B0DD25
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.112
+
+
+
+AFA STUDENT13 -		PC13-RSLBGQATSQL-12062024
+
+	    Lab URL:	https://www.gotomypc.com/sc/9FC57A465FC4A6D3C202E19002B12673
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.113
+
+
+
+AFA STUDENT14 -		PC14-RSLBGQATSQL-12062024
+
+	    Lab URL:	https://www.gotomypc.com/sc/214048221E793D8B8504619002B14E87
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.114
+
+
+
+AFA STUDENT15 -		PC15-RSLBGQATSQL-12062024
+
+	    Lab URL:	https://www.gotomypc.com/sc/09DC5BD8EB7BF154E30A019002B1765F
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.115
+
+
+
+AFA STUDENT16 -		PC16-RSLBGQATSQL-12062024 Piers B
+
+	    Lab URL:	https://www.gotomypc.com/sc/CFCA87DCD04BF71563E4119002B19C46
+
+	      Email:   	uklk.113@qa.com
+	   Password:  	QARemoteLearning#1
+
+	Access Code:	password9076
+	 IP Address:	192.168.1.116
+
+
