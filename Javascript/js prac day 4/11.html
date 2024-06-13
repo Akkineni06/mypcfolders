@@ -1,0 +1,38 @@
+<html>
+
+<script>
+    function processing() {
+        let find = find1.value
+        let message = msg.value
+        let count = 0
+        for (i = 0 ; i < message.length; i++) {
+            if (message.substring(i, i + 1) == find.substring(0, 1)) {
+
+                if (message.substring(i, i + find.length) == find) {
+                    count++
+                    i += find.length - 1
+                }
+            }
+
+
+        }
+        alert(count)           
+        
+    }
+
+    
+    
+
+
+
+</script>
+
+Find: <input id="find1">
+<br>
+<br>
+Message: <input id="msg" size="100">
+<br>
+<br>
+<input type="button" id="btn1" value="find the occurences" onclick="processing()">
+
+</html>

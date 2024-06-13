@@ -1,0 +1,48 @@
+<html>
+<script>
+    function copyLowerCase() {   
+        msg2.value = ""     
+        let msg = msg1.value
+        for (let i = 0; i < msg.length; i++) {
+            if (msg.charCodeAt(i) >= 97 && msg.charCodeAt(i) <= 122) {
+                msg2.value += msg.substring(i, i +1)
+            }
+        }
+    }
+    
+    function copyUpperCase() {
+        msg2.value = ""    
+        let ksg = msg1.value
+        for (let i = 0; i < ksg.length; i++) {
+            if (ksg.charCodeAt(i) >= 65 && ksg.charCodeAt(i) <= 90) {
+                msg2.value += ksg.substring(i, i +1)
+            }
+        }
+    }
+
+    function copyDigits() {
+        msg2.value = ""    
+        let rsg = msg1.value
+        for (let i = 0; i < rsg.length; i++) {
+            if (rsg.charCodeAt(i) >= 48 && rsg.charCodeAt(i) <= 57) {
+                msg2.value += rsg.substring(i, i +1)
+            }
+        }
+    }
+    
+</script>
+ 
+Message1:<input id="msg1">
+<br>
+<br>
+<input type="button" value="Copy LOWER CASE" onclick="copyLowerCase()">
+<input type="button" value="Copy UPPER CASE" onclick="copyUpperCase()">
+<input type="button" value="Copy DIGITS" onclick="copyDigits()">
+<br>
+<BR>
+Message 2<input id="msg2">
+<br>
+<br>
+ 
+ 
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+
+            table, th, td {
+                border: 1px solid black;
+            }
+
+            fieldset {
+                width: 200px;        
+            }         
+        </style>
+
+    </head>
+    <body>
+
+        <table>
+            <tr>
+
+                <th>column 1</th>
+                <th>column 2</th>
+                <th>column 3</th>
+
+            </tr>    
+            <tr>
+
+                <td>cell 1</td>
+                <td>cell 2</td>
+                <td>cell 3</td>
+
+            </tr> 
+            <tr>
+
+                <td>cell 1</td>
+                <td>cell 2</td>
+                <td>cell 3</td>
+
+            </tr>  
+        </table>
+
+
+        <form method="get" action="search.html">
+            <h1>GET form</h1>
+            <input name="q" type="text">
+            <button type="submit">search</button>
+        </form>
+        <form method="post" action="mailform.php">
+            <h1>Post form</h1>
+            <input name="q" type="text">
+            <button type="submit">search</button>
+        </form>
+        <form>
+            <input type="checkbox" name="cb1" value="0"/>1
+            <input type="checkbox" name="cb2" value="1"/>2
+
+                    
+            <fieldset>
+                <legend>Question1</legend>
+                <input type="radio" name="multichoice" value="a"/>a
+                <input type="radio" name="multichoice" value="b"/>b
+                <input type="radio" name="multichoice" value="c"/>c
+                <input type="radio" name="multichoice" value="d"/>d
+
+            </fieldset>
+
+            <br/>
+
+            <fieldset>
+            <legend>Date of Birth</legend>
+            <input type="date" name="Date of Birth"/>
+            </fieldset>
+
+            <input type="color" name="paint"/>
+
+            <br/>
+            <br/>
+            <br/>
+            
+            <iframe style="border: 2px solid red;" height="400" width="1200" src="https://www.dailymail.co.uk/home/index.html"></iframe>
+
+            <iframe height="300" width="50%" name="iframe_two"></iframe>
+            <a href="https://www.wikipedia.com" target="iframe_two">Wiki on iframe</a>
+
+            
+
+        </form>
+
+        
+    </body>
+</html>

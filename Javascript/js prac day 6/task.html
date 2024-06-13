@@ -1,0 +1,79 @@
+<html>
+
+<script>
+
+
+
+
+function displayComments(comments) {
+
+        table1.innerHTML = ""
+        let tr0 = document.createElement("tr")
+        tr0.innerHTML = "<td> postId </td> <td> id </td > <td> name </td> <td> email </td> <td> body </td>"
+
+        table1.appendChild(tr0)
+        
+
+        for (let i = 0 ; i < comments.length; i++) {
+
+            let div1 = document.createElement("div")
+            div1.innerHTML = comments[i].id
+            document.body.appendChild(div1)
+
+            let tr1 = document.createElement("tr")
+            let td1 = document.createElement("td")
+            let td2 = document.createElement("td")
+            let td3 = document.createElement("td")
+            let td4 = document.createElement("td")
+            let td5 = document.createElement("td")
+
+            td1.innerHTML = comments[i].postId
+            td2.innerHTML = comments[i].id
+            td3.innerHTML = comments[i].name
+            td4.innerHTML = comments[i].email
+            td5.innerHTML = comments[i].body
+
+            tr1.appendChild(td1)
+            tr1.appendChild(td2)
+            tr1.appendChild(td3)
+            tr1.appendChild(td4)
+            tr1.appendChild(td5)
+
+            table1.appendChild(tr1)
+
+                        
+        }    
+}
+
+function processResponse(res) {
+
+    let responsePromise = res.json()
+    responsePromise.then(displayComments)
+}
+
+function showData1() {
+
+    let promiseObject = fetch("https://jsonplaceholder.typicode.com/posts")
+    promiseObject.then(processResponse)
+}
+
+
+
+
+
+</script>
+
+
+<body>
+PostId1: <input type="Button" value="Display" onclick="showData1()">
+<br>
+<br>
+PostId2: <input type="Button" value="Display" onclick="showData1()">
+<br>
+<table border="1" id="table1">
+</table>
+
+</body>
+
+</html>
+

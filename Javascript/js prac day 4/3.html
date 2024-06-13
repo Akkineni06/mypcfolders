@@ -1,0 +1,25 @@
+<html>
+<script>
+    function copyLowerCase() {
+        let msg = msg1.value
+        for (let i = 0; i < msg.length; i++) {
+            if (msg.charCodeAt(i) >= 97 && msg.charCodeAt(i) <= 122) {
+                msg2.value += msg.substring(i, i +1)
+            }
+        }
+    }
+    
+</script>
+ 
+Message1:<input id="msg1">
+<br>
+<br>
+<input type="button" value="Copy LOWER CASE" onclick="copyLowerCase()">
+<br>
+<BR>
+Message 2<input id="msg2">
+<br>
+<br>
+ 
+ 
+</html>

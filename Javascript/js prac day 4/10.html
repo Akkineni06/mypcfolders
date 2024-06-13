@@ -1,0 +1,72 @@
+<html>
+
+<script>
+
+    function checkDigits(data) {
+        for (let i = 0; i < data.length; i++) {
+            if (data.charCodeAt(i) >= 48 && data.charCodeAt(i) <= 57) {
+                return false            
+            }    
+                            
+        }
+        return true
+    }
+    function countCharacters(data, character) {
+
+        let count = 0
+        for (let i = 0; i < data.length; i++) {
+            if (data.substring(i, i + 1) == character) {
+
+            }
+        }
+        return count
+    }
+    function validation() {
+        errName.innerHTML = ""
+        errEmail.innerHTML = ""
+        if (na.value == "") {
+            errName.innerHTML = "*Name cant be empty"
+            errName.style.visibility = "visible"
+            event.preventDefault()            
+        } else {
+
+            if (checkDigits(na.value) == false) {
+                errName.innerHTML = "*Name cannot contain digits"
+                errName.style.visibility = "visible"
+
+                event.preventDefault()
+            }
+        }
+
+        if (email1.value == "") {
+            errEmail.innerHTML = "*Email cant be empty"
+            errEmail.style.visibility = "visible"
+            event.preventDefault()
+        } else {
+
+            if (countCharacters(email1.value, "@") !=1 || countCharacters(email1.value, ".") == 0) {
+                errEmail.innerHTML = "*Not Valid Email Address"
+                errEmail.style.visibility = "visible"
+                event.preventDefault()
+            }
+        }
+
+    }
+
+</script>
+
+<h2> Registration Form:</h2>
+<form action="http://www.bbc.com" onsubmit="validation()">
+
+    Name:<input id ="na">
+    <span id="errName" style="color:red;visibility:hidden"></span>
+
+    <br>
+    Email:<input id="email1">
+    <span id="errEmail" style="color:red;visibility:hidden"></span>
+    <br>
+    <input type="submit" value="Create Account">
+        
+</form>
+
+</html>

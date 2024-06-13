@@ -1,0 +1,25 @@
+<htmL>
+<script>
+    function processing() {
+        let data = msg.value
+        let space = 0
+        for (let i = 0; i < data.length; i++) {
+
+            if (data.substring(i, i + 1) == " ") {
+                space++
+
+            }
+        }
+        
+        words.value = "You have entered " + (space + 1) + " words "
+    }
+</script>
+
+Message:<input id="msg">
+<br>
+<input id="words">
+<br>
+<br>
+<input type="button" value="click" onclick="processing()">
+
+</htmL>

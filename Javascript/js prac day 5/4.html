@@ -1,0 +1,57 @@
+<html>
+
+<script>
+
+    let employees = [
+        {
+            name: "Praveen",
+            address: "Manchester",
+            salary: 1000,
+            department: "IT",
+            tax: ""
+        },
+        
+        {
+            name: "David",
+            address: "London",
+            salary: 6000,
+            department: "HR",
+            tax:""
+        }
+    ]
+    function showEmployees() {
+        
+        for (let i =0 ; i < employees.length; i++) {
+
+            let tr1 = document.createElement("tr")
+            let td1 = document.createElement("td")
+            let td2 = document.createElement("td")
+            let td3 = document.createElement("td")
+            let td4 = document.createElement("td")
+            let td5 = document.createElement("td")
+
+            td1.innerHTML = employees[i].name
+            td2.innerHTML = employees[i].address
+            td3.innerHTML = employees[i].department
+            td4.innerHTML = employees[i].salary
+            td5.innerHTML = employees[i].salary*15/100
+
+
+            tr1.appendChild(td1)
+            tr1.appendChild(td2)
+            tr1.appendChild(td3)
+            tr1.appendChild(td4)
+            tr1.appendChild(td5)
+
+            table1.appendChild(tr1)
+        }
+    }
+</script>
+
+<input type="Button" value="Show Employees" onclick="showEmployees()">
+
+<table border="1" id="table1">
+
+</table>
+
+</html>
